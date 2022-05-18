@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Александра Кузнецова](https://up.htmlacademy.ru/htmlcss/34/user/2118115).
-* Наставник: `Роман Ясель`(https://htmlacademy.ru/profile/yasel).
+* Наставник: [Роман Ясель](https://htmlacademy.ru/profile/yasel).
 
 ---
 
