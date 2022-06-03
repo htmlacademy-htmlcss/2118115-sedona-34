@@ -140,6 +140,7 @@ body {
   background-color: #82B3D3;
   background-image: url("../images/main/background-subscribe.png");
   background-repeat: no-repeat;
+  background-size: 100% auto;
   width: 1200px;
   height: 411px;
   margin: 0 auto;
@@ -164,4 +165,5 @@ body {
 }
 .page-footer a {
   color: #000000;
+  text-decoration: none;
 }
