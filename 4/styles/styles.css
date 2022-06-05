@@ -18,81 +18,75 @@ body {
   font-family: "PT Sans", "Georgia", sans-serif;
   font-size: 22px;
   line-height: 24px;
-  background-color: #ffffff;
   color: #333333;
+  background-color: #ffffff;
 }
 .page-header {
   color: #000000;
   background-color: #ffffff;
 }
 .navigation-link {
-  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
   font-size: 20px;
   line-height: 26px;
-  font-weight: 700;
   text-align: center;
   color: #000000;
   text-decoration: none;
-  }
+}
 .navigation-link-bottom {
-  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  font-weight: 700;
   text-align: center;
   color: #ffffff;
   background-color: #756157;
+  text-decoration: none;
   text-transform: uppercase;
-
-
 }
 .main-index {
+  text-align: center;
   color: #000000;
   background-color: #ffffff;
-  text-align: center;
 }
 .description-title {
-  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
 }
 .description-text {
-  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
-
+  color: #333333;
+  background-color: #ffffff;
 }
 .advantages-list {
   text-align: center;
 }
 .advantages-title {
-  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
-  }
-  .advantages-number {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-  }
-.advantages-item {
-  font-family: "PT Sans", sans-serif;
+}
+.advantages-number {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  }
+}
+.advantages-item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
 .advantages-town {
   color: #ffffff;
   background-color: #82B3D3;
 }
 .advantages-house {
   color: #333333;
-  background-color: rgba(131, 179, 211, 0.12)
+  background-color: rgba(131, 179, 211, 0.12);
 }
 .advantages-food {
   color: #333333;
@@ -100,7 +94,7 @@ body {
 }
 .advantages-souvenirs {
   color: #333333;
-  background-color: rgba(131, 179, 211, 0.12)
+  background-color: rgba(131, 179, 211, 0.12);
 }
 .advantages-bridge {
   color: #ffffff;
@@ -108,16 +102,15 @@ body {
 }
 .advantages-small-area {
   color: #333333;
-  background-color: rgba(131, 179, 211, 0.12)
+  background-color: rgba(131, 179, 211, 0.12);
 }
 .advantages-road {
   color: #333333;
-  background-color: rgba(131, 179, 211, 0.2)
-  ;
+  background-color: rgba(131, 179, 211, 0.2);
 }
 .advantages-tourists {
   color: #333333;
-  background-color: rgba(131, 179, 211, 0.12)
+  background-color: rgba(131, 179, 211, 0.12);
 }
 .hotel {
   font-family: "PT Sans", sans-serif;
@@ -128,7 +121,6 @@ body {
   background-color: #ffffff;
 }
 .hotel-title {
-  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -136,18 +128,16 @@ body {
   text-transform: uppercase;
 }
 .hotel-search-button {
-  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
   text-align: center;
   color: #ffffff;
   background-color: #756157;
-  text-transform: uppercase;
   text-decoration: none;
+  text-transform: uppercase;
 }
-.subscibe {
-  font-family: "PT Sans", sans-serif;
+.subscibe-index {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
@@ -159,8 +149,15 @@ body {
   background-size: 100% auto;
   margin: 0 auto;
 }
-.subscribe-title {
-  font-family: "PT Sans", sans-serif;
+.subscibe-catalog {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+  background-color: #ffffff;
+}
+.subscribe-title-index {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -168,8 +165,15 @@ body {
   color: #ffffff;
   text-transform: uppercase;
 }
+.subscribe-title-catalog {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+}
 .page-footer {
-  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 40px;
   line-height: 40px;
@@ -188,9 +192,8 @@ body {
   text-decoration: none;
 }
 .filters {
-  Font-family: "PT Sans";
-  Font-style: 400;
-  Font-size: 16px;
+  font-weight: 400;
+  font-size: 16px;
   Line-height: 20px;
   color: #ffffff;
   background-color:#82B3D3;
@@ -199,40 +202,37 @@ body {
   background-size: 100% auto;
   }
 .inner-header-title {
-  Font-family: "PT Sans";
-  Font-style: 700;
-  Font-size: 60px;
-  Line-height: 78px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
   text-align: Left;
   vertical-align: Top;
   color: #ffffff;
    }
 .catalog-filter-title {
-  Font-style: 700;
-  Font-size: 20px;
-  Line-height: 26px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
 }
 .control-input {
-  Font-size: 18px;
-  Line-height: 21px;
+  font-size: 18px;
+  line-height: 21px;
 }
 .button-filters-apply {
-  Font-style: 700;
-  Font-size: 16px;
-  Line-height: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
   text-align: Center;
   vertical-align: Center;
   text-transform: uppercase;
 }
 .button-filters-reset {
-  Font-style: 40;
-  Font-size: 16px;
-  Line-height: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
   text-align: Center;
-  vertical-align: top;
 }
 .sorting {
-  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 20px;
@@ -257,7 +257,6 @@ body {
   background-color: #ffffff;
 }
 .hotel-cards {
-  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 20px;
@@ -307,12 +306,10 @@ body {
   text-decoration: none;
 }
 .pagination {
-  Font-family: "PT Sans";
-  Font-style: 700;
-  Font-size: 20px;
-  Line-height: 36px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
   text-align: center;
-  vertical-align: Top;
   background-color: #ffffff;
 }
 .pagination-link-pagination-current {
@@ -325,10 +322,9 @@ body {
   text-decoration: none;
 }
 .amount-hotels {
-  Font-style: 400;
-  Font-size: 18px;
-  Line-height: 21px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
   color: #000000;
   background-color: #ffffff;
-
 }
