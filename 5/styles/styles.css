@@ -106,10 +106,9 @@ body {
 .advantages-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
   margin: 0;
   padding: 0;
+  list-style: none;
   }
 .advantages-title {
   font-weight: 700;
@@ -134,15 +133,9 @@ body {
 }
 .town-image {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-grow: 1;
   padding: 0;
   margin: 0;
-  list-style-type: none;
-  width: 1200px;
-}
-.house {
-  list-style-type: none;
 }
 .advantages-house {
   font-weight: 400;
@@ -153,9 +146,6 @@ body {
   padding: 80px 85px;
   margin: 0;
 }
-.food {
-  list-style-type: none;
-}
 .advantages-food {
   font-weight: 400;
   font-size: 18px;
@@ -164,9 +154,6 @@ body {
   background-color: #ffffff;
   padding: 80px 85px;
   margin: 0;
-}
-.souvenirs {
-  list-style-type: none;
 }
 .advantages-souvenirs {
   font-weight: 400;
@@ -177,15 +164,11 @@ body {
   padding: 80px 85px;
   margin: 0;
 }
-.house-food-souvenirs {
-  list-style-type: none;
-}
 .hfs-list {
   display: flex;
-  justify-content: center;
-  align-content: center;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 .advantages-bridge {
   font-weight: 400;
@@ -202,10 +185,6 @@ body {
   align-content: center;
   margin: 0;
   padding: 0;
-  list-style-type: none;
-}
-.small-area {
-  list-style-type: none;
 }
 .advantages-small-area {
   font-weight: 400;
@@ -216,9 +195,6 @@ body {
   padding: 103px 85px;
   margin: 0;
 }
-.road {
-  list-style-type: none;
-}
 .advantages-road {
   font-weight: 400;
   font-size: 18px;
@@ -227,9 +203,6 @@ body {
   background-color: rgba(131, 179, 211, 0.2);
   padding: 103px 85px;
   margin: 0;
-}
-.tourists {
-  list-style-type: none;
 }
 .advantages-tourists {
   font-weight: 400;
@@ -240,15 +213,13 @@ body {
   padding: 103px 85px;
   margin: 0;
 }
-.area-road-tourists {
-  list-style-type: none;
-}
 .art-list {
   display: flex;
   justify-content: center;
   align-content: center;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 .hotel {
   font-family: "PT Sans", sans-serif;
@@ -339,7 +310,7 @@ body {
   text-align: center;
   color: #000000;
   text-transform: uppercase;
-  margin-top: 40px;
+  margin-top: 0;
 }
 .page-footer a {
   color: #000000;
@@ -350,7 +321,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0;
-  margin: 40px 70px 30px 70px;
+  margin: 0 70px 0 70px;
 }
 .contacts {
   display: flex;
