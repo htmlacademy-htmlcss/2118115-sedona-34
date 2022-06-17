@@ -109,18 +109,36 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
+  text-align: center;
   }
 .advantages-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
-  margin-top: 0;
+  margin: auto;
+  width: 180px;
+  text-align: center;
+}
+.hfs-title {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .advantages-number {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+}
+.advantages-text {
+  width: 230px;
+  margin: auto;
+}
+.advantages-item {
+  display: flex;
+  flex-grow: 1;
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
 .advantages-town {
   font-weight: 400;
@@ -128,47 +146,37 @@ body {
   line-height: 21px;
   color: #ffffff;
   background-color: #82B3D3;
-  padding: 92px 85px;
   margin: 0;
-}
-.town-image {
-  display: flex;
   flex-grow: 1;
-  padding: 0;
-  margin: 0;
+  padding: 92px 0;
 }
-.advantages-house {
+.advantages-item-trio {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
+  margin: 0;
+  width: 33.333%;
+  text-align: center;
+  padding: 80px 0;
+}
+.house {
   background-color: rgba(131, 179, 211, 0.12);
-  padding: 80px 85px;
-  margin: 0;
 }
-.advantages-food {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  color: #333333;
+.food {
   background-color: #ffffff;
-  padding: 80px 85px;
-  margin: 0;
 }
-.advantages-souvenirs {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  color: #333333;
+.souvenirs {
   background-color: rgba(131, 179, 211, 0.12);
-  padding: 80px 85px;
-  margin: 0;
 }
 .hfs-list {
   display: flex;
+  flex-grow: 1;
   margin: 0;
   padding: 0;
   list-style: none;
+  width: 100%;
+  text-align: center;
 }
 .advantages-bridge {
   font-weight: 400;
@@ -176,50 +184,29 @@ body {
   line-height: 21px;
   color: #ffffff;
   background-color: #82B3D3;
-  padding: 92px 85px;
   margin: 0;
+  flex-grow: 1;
+  padding: 92px 0;
 }
-.bridge-image{
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  margin: 0;
-  padding: 0;
-}
-.advantages-small-area {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  color: #333333;
+.small-area {
   background-color: rgba(131, 179, 211, 0.12);
-  padding: 103px 85px;
-  margin: 0;
 }
-.advantages-road {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  color: #333333;
+.road {
   background-color: rgba(131, 179, 211, 0.2);
-  padding: 103px 85px;
-  margin: 0;
 }
-.advantages-tourists {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  color: #333333;
+.tourists {
   background-color: rgba(131, 179, 211, 0.12);
-  padding: 103px 85px;
-  margin: 0;
 }
 .art-list {
   display: flex;
-  justify-content: center;
-  align-content: center;
+  flex-grow: 1;
   margin: 0;
   padding: 0;
   list-style: none;
+  width: 100%;
+}
+.art-trio {
+  padding: 103px 0;
 }
 .hotel {
   font-family: "PT Sans", sans-serif;
@@ -228,7 +215,6 @@ body {
   line-height: 26px;
   color: #333333;
   background-color: #ffffff;
-  display: block;
   width: 1200px;
   height: 417px;
   text-align: center;
@@ -497,15 +483,18 @@ body {
   text-align: center;
   color: #000000;
   background-color: #ffffff;
+  width: 1056px;
+  margin: auto;
  }
 .hotel-card-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  width: 1056px;
   padding: 0;
   margin: auto;
   text-align: left;
+  width: 100%;
+  gap: 20px;
+
 }
 .hotel-card-item {
   list-style-type: none;
