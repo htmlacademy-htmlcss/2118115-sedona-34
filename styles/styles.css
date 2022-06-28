@@ -637,8 +637,12 @@ fieldset {
   list-style-type: none;
   width: 48px;
   height: 48px;
-  border: 1px solid black;
+  border: 1px solid #E5E5E5;
   border-radius: 5px;
+}
+
+.sorting-current {
+  border: 1px solid black;
 }
 
 .sorting-item:not(:last-child) {
@@ -657,11 +661,10 @@ fieldset {
 }
 
 .hotel-card-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 340px 340px 340px;
   padding: 0;
   margin: auto;
-  text-align: left;
   width: 100%;
   gap: 18px;
 
@@ -669,8 +672,16 @@ fieldset {
 
 .hotel-card-item {
   list-style-type: none;
-  margin: 0;
   width: 340px;
+  display: grid;
+  grid-template-columns: 140px 140px;
+  row-gap: 16px;
+  column-gap: 20px;
+}
+
+.hotel-card-name {
+text-decoration: none;
+grid-column: 1/-1;
 }
 
 .hotel-card-title {
@@ -681,42 +692,39 @@ fieldset {
   color: #000000;
   background-color: #ffffff;
   margin: 0;
-  margin-top: 16px;
 }
 
 .hotel-card-link {
   text-decoration: none;
+  grid-column: 1/-1;
 }
 
-.card-type {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0px;
-  padding: auto;
-}
-
-.hotel-card-text {
+.hotel-card-text-1 {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   text-align: left;
   color: #000000;
   background-color: #ffffff;
-  margin: 16px 0;
+  margin: 0;
 }
 
-.hotel-card-button {
+.hotel-card-text-2 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: left;
+  color: #000000;
+  background-color: #ffffff;
+  margin: 0;
+}
+
+.button-card {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
   color: #ffffff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0px;
-  padding: auto;
 }
 
 .hotel-card-button-more {
@@ -743,6 +751,8 @@ fieldset {
 
 .rating-hotels {
   text-transform: uppercase;
+  margin: 0;
+  text-align: left;
 }
 
 .button-card {
