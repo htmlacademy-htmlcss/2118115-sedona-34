@@ -675,8 +675,13 @@ fieldset {
   width: 340px;
   display: grid;
   grid-template-columns: 140px 140px;
+  justify-content: center;
   row-gap: 16px;
   column-gap: 20px;
+}
+
+.hotel-card-image {
+  padding-top: 20px;
 }
 
 .hotel-card-name {
@@ -753,6 +758,9 @@ grid-column: 1/-1;
   text-transform: uppercase;
   margin: 0;
   text-align: left;
+  padding: 9px 15px 8px 15px;
+  background-color: #F2F2F2;
+  border-radius: 5px;
 }
 
 .button-card {
