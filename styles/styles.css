@@ -471,6 +471,69 @@ body {
   width: 476px;
 }
 
+.field {
+  margin: 0;
+  padding: 20px 22px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: #F2F2F2;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  width: 600px;
+  text-align: start;
+}
+
+.field:focus-visible {
+  outline: none;
+}
+
+.newsletter-form {
+  display: flex;
+}
+
+.newsletter-button {
+  width: 200px;
+  height: 60px;
+  background-color: #82B3D3;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  padding: 12px 15px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.newsletter-button:hover {
+  background-color: #68A2CA;
+}
+
+.newsletter-button:focus-visible {
+  outline: none;
+}
+
+.newsletter-button:focus {
+  background-color: #68A2CA;
+}
+
+.newsletter-button:active {
+  background-color: #82B3D3;
+}
+
+.button-newsletter {
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.button-newsletter:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .page-footer {
   width: 1200px;
   font-weight: 400;
@@ -515,7 +578,7 @@ body {
 
 
 .social-link:hover svg path {
-  fill: #68A2CA ;
+  fill: #68A2CA;
 }
 
 .social-link:focus svg path {
@@ -575,7 +638,7 @@ body {
 }
 
 .logo-link:focus svg path {
-  fill:#756157 ;
+  fill: #756157;
 }
 
 .logo-link:active svg path {
@@ -742,6 +805,116 @@ fieldset {
   margin-right: 70px;
 }
 
+.range {
+  display: flex;
+  flex-direction: column;
+  width: 288px;
+}
+
+.range-wrapper-inputs {
+  display: flex;
+  width: 288px;
+  margin-top: 34px;
+}
+
+.range-input {
+  font: inherit;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 12px 19px 11px 19px;
+  box-sizing: border-box;
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.range-input:hover {
+  border: 2px solid #ffffff;
+  opacity: 60%;
+}
+
+.range-input:focus-visible {
+  outline: none;
+}
+
+.range-input:focus {
+  border: 2px solid #ffffff;
+}
+
+.range-input:active {
+  background-color: #756257;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.range-input::-webkit-outer-spin-button,
+.range-input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+.range-right {
+  border-radius: 4px 0 0 4px;
+  border-right: 0px;
+}
+
+.range-left {
+  border-radius: 0 4px 4px 0;
+}
+
+.range-scale {
+  position: relative;
+  height: 4px;
+  margin-top: 32px;
+  background-color: #ffffff;
+  opacity: 30%;
+  border-radius: 2px;
+  width: 288px;
+}
+.range-bar {
+  position: absolute;
+  height: 4px;
+  background-color: #6C9E42;
+}
+
+.range-toggle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #6C9E42;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.toggle-min {
+  top: -8px;
+  left: -10px;
+}
+
+.toggle-max {
+  top: -8px;
+  right: -10px;
+}
+
+.range-toggle:hover {
+  background-color: #7DB54F;
+}
+
+.range-toggle:focus-visible {
+  outline: none;
+}
+
+.range-toggle:focus {
+  border: 3px solid #83B3D3;
+}
+
+.range-toggle:active {
+  border: 2px solid #83B3D3;
+}
+
 .submits-hotel-filter {
   list-style-type: none;
 }
@@ -762,6 +935,10 @@ fieldset {
   list-style-type: none;
   text-align: left;
   padding-top: 15px;
+}
+
+.catalog-filter-item:first-child {
+  padding-top: 30px;
 }
 
 .control-input {
@@ -827,6 +1004,7 @@ fieldset {
 .button-filters-reset:focus-visible {
   outline: none;
 }
+
 .button-filters-reset:focus {
   border: 3px solid #83B3D3;
   border-radius: 4px;
@@ -841,7 +1019,7 @@ fieldset {
   flex-direction: column;
   padding: 0;
   margin: 0;
-  margin-top: 46px;
+  margin-top: 60px;
   align-items: center;
 }
 
@@ -928,6 +1106,7 @@ fieldset {
   border: 2px solid black;
 
 }
+
 .sorting-cards {
   background-image: url("../images/catalog/card.svg");
 }
@@ -1061,8 +1240,7 @@ fieldset {
 
 .hotel-card-button-more:active {
   background-color: #756157;
-  color: rgba(255, 255, 255, 0.3)
-  ;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .hotel-card-button-favorite {
