@@ -778,6 +778,77 @@ fieldset {
   margin: 0;
 }
 
+.control {
+  position: relative;
+  display: block;
+  padding-left: 40px;
+}
+
+.control-mark {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  top: 0;
+  left: 3px;
+}
+
+.control:hover .control-mark {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.control:focus-visible .control-mark {
+  outline: none;
+}
+
+.control:focus .control-mark {
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 3px solid #82B3D3;
+  border-radius: 4px;
+}
+
+.control:active .control-mark {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.control-input[type="checkbox"]:checked + .control-mark::before,
+.control-input[type="checkbox"]:checked + .control-mark::after {
+  position: absolute;
+  top: 7px;
+  left: 2px;
+  background-image: url("../images/catalog/checkmark.svg");
+  content: "";
+}
+
+.control-mark-type {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  top: 0;
+  left: 3px;
+}
+
+.control:hover .control-mark-type {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.control:focus-visible .control-mark-type {
+  outline: none;
+}
+
+.control:focus .control-mark-type {
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 3px solid #82B3D3;
+  border-radius: 4px;
+}
+
+.control:active .control-mark-type {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
 .catalog-filter-title {
   font-weight: 700;
   font-size: 20px;
@@ -1032,6 +1103,7 @@ fieldset {
   background-color: #ffffff;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
   margin: 50px 72px 56px 72px;
   padding: 0;
@@ -1046,20 +1118,26 @@ fieldset {
   text-transform: uppercase;
   padding: 0;
   margin: 0;
+  margin-right: 190px;
 }
 
 .sorting-list {
+  font: inherit;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  text-align: left;
   color: #000000;
   background-color: #ffffff;
-  margin-left: auto;
   width: 290px;
   height: 49px;
   border: 2px #E5E5E5 solid;
   border-radius: 5px;
+  padding: 12px 20px;
+  padding-right: 77px;
+  background-image: url("../images/catalog/arrowsorting.svg");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  appearance: none;
 }
 
 .sorting-list:hover {
@@ -1068,6 +1146,10 @@ fieldset {
 
 .sorting-list:focus {
   border: 2px solid #68A2CA;
+}
+
+.sorting-list:focus-visible {
+  outline: none;
 }
 
 .sorting-list:active {
@@ -1392,6 +1474,14 @@ fieldset {
   margin-right: 8px;
 }
 
+.hotels-span {
+  margin-right: 51px;
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
 .amount-hotels {
   font-weight: 400;
   font-size: 18px;
@@ -1403,11 +1493,22 @@ fieldset {
 }
 
 .amount-hotels-select {
+  font: inherit;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
   width: 160px;
   height: 49px;
-  margin-left: 51px;
-  border: 1px solid #E5E5E5;
-  border-radius: 3px;
+  border: 2px #E5E5E5 solid;
+  border-radius: 5px;
+  padding: 12px 20px;
+  padding-right: 77px;
+  background-image: url("../images/catalog/arrowsorting.svg");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  appearance: none;
 }
 
 .amount-hotels-select:hover {
@@ -1416,6 +1517,10 @@ fieldset {
 
 .amount-hotels-select:focus {
   border: 2px solid #68A2CA;
+}
+
+.amount-hotels-select:focus-visible {
+  outline: none;
 }
 
 .amount-hotels-select:active {

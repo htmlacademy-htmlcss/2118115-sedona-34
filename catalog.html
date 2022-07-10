@@ -94,20 +94,23 @@
                   <ul class="catalog-filter-list">
                     <li class="catalog-filter-item">
                       <label class="control">
-                        <input class="control-input" type="checkbox" name="swimming-pool" checked>
-                        Бассейн
+                        <input class="visually-hidden control-input" type="checkbox" name="swimming-pool" checked>
+                        <span class="control-mark"></span>
+                        <span class="control-label">Бассейн</span>
                       </label>
                     </li>
                     <li class="catalog-filter-item">
                       <label class="control">
-                        <input class="control-input" type="checkbox" name="parking" checked>
-                        Парковка
+                        <input class="visually-hidden control-input" type="checkbox" name="parking" checked>
+                        <span class="control-mark"></span>
+                        <span class="control-label">Парковка</span>
                       </label>
                     </li>
                     <li class="catalog-filter-item">
                       <label class="control">
-                        <input class="control-input" type="checkbox" name="Wi-fi">
-                        Wi-Fi
+                        <input class="visually-hidden control-input" type="checkbox" name="Wi-fi">
+                        <span class="control-mark"></span>
+                        <span class="control-label">Wi-fi</span>
                       </label>
                     </li>
                   </ul>
@@ -119,20 +122,23 @@
                   <ul class="catalog-filter-list">
                     <li class="catalog-filter-item">
                       <label class="control">
-                        <input class="control-input" type="radio" name="type-of-housing" value="hotel" checked>
-                        Гостиница
+                        <input class="visually-hidden control-input" type="radio" name="type-of-housing" value="hotel" checked>
+                        <span class="control-mark-type"></span>
+                        <span class="control-label">Гостиница</span>
                       </label>
                     </li>
                     <li class="catalog-filter-item">
                       <label class="control">
-                        <input class="control-input" type="radio" name="type-of-housing" value="motel">
-                        Мотель
+                        <input class="visually-hidden control-input" type="radio" name="type-of-housing" value="motel">
+                        <span class="control-mark-type"></span>
+                        <span class="control-label">Мотель</span>
                       </label>
                     </li>
                     <li class="catalog-filter-item">
                       <label class="control">
-                        <input class="control-input" type="radio" name="type-of-housing" value="apartments">
-                        Апартаменты
+                        <input class="visually-hidden control-input" type="radio" name="type-of-housing" value="apartments">
+                        <span class="control-mark-type"></span>
+                        <span class="control-label">Апартаменты</span>
                       </label>
                     </li>
                   </ul>
@@ -170,11 +176,11 @@
       <section class="sorting">
         <h2 class="sorting-hotels"><span class="visually-hidden">Сортировка</span></h2>
         <p class="sorting-amount">Найдено гостиниц: 38</p>
-        <select class="sorting-list" name="price">
-          <option value="inexpensive">Сначала дешёвые</option>
-          <option value="expensive">Сначала дорогие</option>
-          <option value="popular">Популярные</option>
-        </select>
+          <select class="sorting-list" name="price">
+            <option value="inexpensive">Сначала дешёвые</option>
+            <option value="expensive">Сначала дорогие</option>
+            <option value="popular">Популярные</option>
+          </select>
         <ul class="button-sorting">
           <li class="sorting-item">
             <a class="sorting-button  sorting-current sorting-cards" href="#" type="button">
@@ -347,7 +353,7 @@
           </li>
         </ul>
         <label class="amount-hotels">
-          Гостиниц на странице:
+          <span class="hotels-span">Гостиниц на странице:</span>
           <select class="amount-hotels-select" name="amount-hotels-list">
             <option value="inexpensive">4</option>
           </select>
