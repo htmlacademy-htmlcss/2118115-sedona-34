@@ -186,6 +186,40 @@
       </div>
     </footer>
   </div>
-</body>
+  <div class="modal-container">
+    <div class="modal modal-auth">
 
+      <section class="modal-content">
+
+        <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+        <button class="modal-close-button">
+          <span class="visually-hidden">Закрыть</span>
+        </button>
+        <form class="auth-form" action="https://echo.htmlacademy.ru/" method="post">
+          <p class="field-group">
+            <label class="input-title" for="arrival-date">Дата Заезда</label>
+            <input class="auth-form-field field" type="text" value="27 апреля 2020" id="arrival-date" name="arrival-date">
+          </p>
+          <p class="footnote">Мы не можем отправить вас в прошлое</p>
+          <p class="field-group">
+            <label class="input-title" for="date-of-departure">Дата Выезда</label>
+            <input class="auth-form-field field" type="text" value="1 сентября 2021" placeholder="Укажите дату" id="date-of-departure" name="date-of-departure">
+          </p>
+          <p class="footnote free">На эти даты есть свободные номера. Пока есть.</p>
+          <div class="people">
+            <p class="field-group little">
+              <label class="input-title" for="adults">Взрослые</label>
+              <input class="guests field" type="number" value="2" id="adults" name="adults">
+            </p>
+            <p class="field-group little">
+              <label class="input-title children" for="children">Дети</label>
+              <input class="guests field" type="number" value="1" id="children" name="children">
+            </p>
+          </div>
+        </form>
+        <button class="modal-button" type="submit">Найти</button>
+      </section>
+    </div>
+  </div>
+</body>
 </html>
