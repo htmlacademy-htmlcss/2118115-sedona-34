@@ -218,15 +218,15 @@
         <button class="modal-close-button">
           <span class="visually-hidden">Закрыть</span>
         </button>
-        <form class="auth-form" action="https://echo.htmlacademy.ru/" method="post">
+        <form class="auth-form" action="https://echo.htmlacademy.ru/" method="post" id="myid">
           <p class="field-group">
             <label class="input-title" for="arrival-date">Дата Заезда</label>
-            <input class="auth-form-field field" type="text" value="Укажите дату" id="arrival-date" name="arrival-date">
+            <input class="auth-form-field field" type="text" value="27 апреля 2020" id="arrival-date" name="arrival-date">
           </p>
           <p class="footnote">Мы не можем отправить вас в прошлое</p>
           <p class="field-group">
             <label class="input-title" for="date-of-departure">Дата Выезда</label>
-            <input class="auth-form-field field" type="text" value="Укажите дату" id="date-of-departure"
+            <input class="auth-form-field field" type="text" value="1 сентября 2021" id="date-of-departure"
               name="date-of-departure">
           </p>
           <p class="footnote free">На эти даты есть свободные номера. Пока есть.</p>
@@ -263,7 +263,7 @@
             </p>
           </div>
         </form>
-        <button class="modal-button" type="submit">Найти</button>
+        <button class="modal-button" type="submit" form="myid">Найти</button>
       </section>
     </div>
   </div>

@@ -1867,8 +1867,9 @@ fieldset {
   display: block;
 }
 
-.tooltip-toggle:hover .tooltip-icon {
-  color: #68A2CA
+.tooltip-toggle:hover .tooltip-icon circle {
+ fill: #68A2CA;
+ cursor: pointer;
 }
 
 .tooltip-text {
