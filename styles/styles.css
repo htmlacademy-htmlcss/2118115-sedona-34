@@ -1733,7 +1733,7 @@ fieldset {
   text-transform: uppercase;
   color: white;
   background-color: #83B3D3;
-  padding: 12px 26px;
+  padding: 12px;
   border: none;
   border-radius: 10px;
   margin-bottom: 70px;
@@ -1776,27 +1776,13 @@ fieldset {
   margin-left: 56px;
 }
 
-.plus {
-  position: absolute;
-  top: 18px;
-  right: 19px;
-  width: 13px;
-  height: 13px;
-  color: rgba(0, 0, 0, 0.6);
-  background-color: #f2f2f2;
-  border: none;
-  background-image: url("../images/modal/plus.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
-}
 
 .minus {
   position: absolute;
-  top: 18px;
-  right: 100px;
-  width: 13px;
-  height: 13px;
+  top: 13px;
+  right: 93px;
+  width: 25px;
+  height: 25px;
   color: rgba(0, 0, 0, 0.6);
   background-color: #f2f2f2;
   border: none;
@@ -1806,4 +1792,129 @@ fieldset {
   background-position: center;
   cursor: pointer;
 }
+.minus:hover {
+  background-image: url("../images/modal/minusblack.svg");
+}
 
+.minus:focus-visible {
+  outline: none;
+}
+
+.minus:focus {
+  outline: 3px solid #83B3D3;
+  border-radius: 4px;
+}
+
+.minus:active {
+  background-image: url("../images/modal/minus.svg");
+  outline: none;
+  border: none;
+}
+
+.plus {
+  position: absolute;
+  top: 13px;
+  right: 19px;
+  width: 25px;
+  height: 25px;
+  color: rgba(0, 0, 0, 0.6);
+  background-color: #f2f2f2;
+  border: none;
+  background-image: url("../images/modal/plus.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.plus:hover {
+  background-image: url("../images/modal/plusblack.svg");
+}
+
+.plus:focus-visible {
+  outline: none;
+}
+
+.plus:focus {
+  outline: 3px solid #83B3D3;
+  border-radius: 4px;
+}
+
+.plus:active {
+  background-image: url("../images/modal/plus.svg");
+  outline: none;
+  border: none;
+}
+
+.tooltip {
+  position: absolute;
+  margin-left: 4px;
+  width: 25px;
+  height: 25px;
+}
+
+.tooltip-toggle {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.tooltip-icon {
+  width: 100%;
+  height: 100%;
+  color: #83B3D3;
+  display: block;
+}
+
+.tooltip-toggle:hover .tooltip-icon {
+  color: #68A2CA
+}
+
+.tooltip-text {
+  box-sizing: border-box;
+  background-color: #333333;
+  color: #ffffff;
+  font-family: "PT Sans";
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: none;
+  padding: 15px 18px 18px 22px;
+  border-radius: 10px;
+  display: block;
+  width: 256px;
+  position: absolute;
+  top: 42px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  display: none;
+}
+
+.tooltip-text:after {
+  content:'';
+  background-image: url("../images/modal/corner.svg");
+  width: 19px;
+  height: 9px;
+  position:absolute;
+  bottom: 100%;
+  left:0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tooltip-toggle:hover + .tooltip-text,
+.tooltip-toggle:focus + .tooltip-text {
+  display: block;
+}
+
+.form-label-icon {
+  position: relative;
+  padding-right: 25px;
+}
+
+/*.modal-container-close {
+  display: none;
+}
