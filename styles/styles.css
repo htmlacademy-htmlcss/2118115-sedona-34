@@ -1586,7 +1586,7 @@ fieldset {
   position: absolute;
   padding: 20px;
   top: 54px;
-  right: 70px;
+  right: 54px;
   width: 53px;
   height: 53px;
   background-color: #F2F2F2;
@@ -1663,10 +1663,15 @@ fieldset {
   font-family: inherit;
   font-weight: 700;
   font-size: 18px;
+  background-image: url("../images/modal/calendar.svg");
   line-height: 21px;
+  background-position: right 16px center;
+  background-repeat: no-repeat;
   grid-column-start: 2;
   grid-column-end: 5;
 }
+
+
 
 .auth-form-field:hover {
   background-color: #E6E6E6;
@@ -1705,6 +1710,7 @@ fieldset {
 }
 
 .guests {
+  position: relative;
   width: 133px;
   height: 50px;
   box-sizing: border-box;
@@ -1762,10 +1768,42 @@ fieldset {
 }
 
 .little {
+  position: relative;
   margin: 0;
 }
 
 .children {
   margin-left: 56px;
+}
+
+.plus {
+  position: absolute;
+  top: 18px;
+  right: 19px;
+  width: 13px;
+  height: 13px;
+  color: rgba(0, 0, 0, 0.6);
+  background-color: #f2f2f2;
+  border: none;
+  background-image: url("../images/modal/plus.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.minus {
+  position: absolute;
+  top: 18px;
+  right: 100px;
+  width: 13px;
+  height: 13px;
+  color: rgba(0, 0, 0, 0.6);
+  background-color: #f2f2f2;
+  border: none;
+  background-image: url("../images/modal/minus.svg");
+  background-size: 13px 1px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
 }
 

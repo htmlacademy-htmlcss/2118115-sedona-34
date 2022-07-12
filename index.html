@@ -203,17 +203,29 @@
           <p class="footnote">Мы не можем отправить вас в прошлое</p>
           <p class="field-group">
             <label class="input-title" for="date-of-departure">Дата Выезда</label>
-            <input class="auth-form-field field" type="text" value="1 сентября 2021" placeholder="Укажите дату" id="date-of-departure" name="date-of-departure">
+            <input class="auth-form-field field" type="text" value="Укажите дату" placeholder="Укажите дату" id="date-of-departure" name="date-of-departure">
           </p>
           <p class="footnote free">На эти даты есть свободные номера. Пока есть.</p>
           <div class="people">
             <p class="field-group little">
               <label class="input-title" for="adults">Взрослые</label>
               <input class="guests field" type="number" value="2" id="adults" name="adults">
+              <button class="plus" type="button">
+                <span class="visually-hidden">Плюс</span>
+              </button>
+              <button class="minus" type="button">
+                <span class="visually-hidden">Минус</span>
+              </button>
             </p>
             <p class="field-group little">
               <label class="input-title children" for="children">Дети</label>
               <input class="guests field" type="number" value="1" id="children" name="children">
+              <button class="plus" type="button">
+                <span class="visually-hidden">Плюс</span>
+              </button>
+              <button class="minus" type="button">
+                <span class="visually-hidden">Минус</span>
+              </button>
             </p>
           </div>
         </form>
