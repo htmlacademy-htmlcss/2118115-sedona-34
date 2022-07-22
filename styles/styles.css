@@ -1045,7 +1045,7 @@ fieldset {
   padding: 14px 15px;
   margin-bottom: 20px;
   color: #ffffff;
-  background-color: #82B3D3;
+  background-color: #6C9E42;
   border: none;
   border-radius: 4px;
   width: 160px;
@@ -1895,6 +1895,7 @@ fieldset {
 .tooltip-text:after {
   content:'';
   background-image: url("../images/modal/corner.svg");
+  background-color: #ffffff;
   width: 19px;
   height: 9px;
   position:absolute;
@@ -1915,6 +1916,6 @@ fieldset {
   padding-right: 25px;
 }
 
-/*.modal-container-close {
+.modal-container-close {
   display: none;
 }
