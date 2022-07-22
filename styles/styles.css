@@ -1962,6 +1962,7 @@ fieldset {
 .tooltip-text:after {
   content:'';
   background-image: url("../images/modal/corner.svg");
+  background-color: #ffffff;
   width: 19px;
   height: 9px;
   position:absolute;
